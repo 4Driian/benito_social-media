@@ -1,0 +1,31 @@
+@mixin logos {
+  display: flex;
+  width: 50px;
+  text-align: start;
+}
+
+.facebook__logo{
+  box-shadow: (10px 10px rgba(8, 8, 8, 0.568));
+  border-radius: 15px;
+  @include logos;
+}
+
+.instagram__logo {
+  filter: drop-shadow(10px 10px  rgba(8, 8, 8, 0.568));
+  @include logos;
+}
+
+@media (max-width: 480px) {
+  .dog-background {
+    width: 1200px;
+    left: -500px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 748px){
+
+}
+
+@media (min-width: 749px) {
+
+}
