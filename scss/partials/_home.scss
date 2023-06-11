@@ -5,9 +5,9 @@
 
 body {
   font-family: 'Kalam', cursive;
-  background-image: url("/src/img/pets-background-yellow-01.jpg");
+  background-image: url("/src/img/pets-background.svg");
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   background-color: #FDEB99;
 }
 
@@ -30,4 +30,8 @@ h1 {
   width: 90%;
   filter: drop-shadow(3px 3px 0px rgba(8, 8, 8, 0.568));
   text-align: center;
+}
+
+.gato {
+  width: 100px;
 }
